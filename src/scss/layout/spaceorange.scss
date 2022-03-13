@@ -1,0 +1,20 @@
+.orange {
+  background-color: #ff975a;
+
+  padding: 46px 0px 51px 0px;
+  text-align: center;
+}
+
+.tittleo {
+  font-family: Poppins;
+  font-weight: bold;
+
+  &__sub {
+    font-family: Poppins;
+  }
+
+  &--buttom {
+    font-family: Poppins;
+    text-decoration: underline;
+  }
+}

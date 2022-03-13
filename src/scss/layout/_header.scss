@@ -1,0 +1,22 @@
+.header {
+  height: fit-content;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/header.jpg);
+
+  &__tit {
+    color: #0c474b;
+    padding: 50px 28px 16px 50px;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+.button {
+  background-color: #0c474b;
+  padding: 12px 24px 12px 24px;
+  color: #f0ebe5;
+  font-family: Poppins;
+  font-weight: bold;
+}
