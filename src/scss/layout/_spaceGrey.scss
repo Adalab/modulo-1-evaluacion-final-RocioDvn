@@ -31,4 +31,15 @@
 .imgcreate {
   width: 375px;
   height: 300px;
+
+  @media all and (min-width: 768px) {
+    width: 100vh;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 }
