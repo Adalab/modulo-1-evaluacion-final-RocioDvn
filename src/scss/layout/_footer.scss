@@ -8,6 +8,9 @@
   @media all and (min-width: 768px) {
     display: flex;
   }
+  @media all and (min-width: 1200px) {
+    justify-content: space-around;
+  }
 }
 
 .tittle {
