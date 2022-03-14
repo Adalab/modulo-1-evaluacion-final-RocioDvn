@@ -5,11 +5,20 @@
   background-size: cover;
   background-image: url(../images/header.jpg);
 
+  &__logo {
+    align-items: center;
+  }
+
   &__tit {
     color: #0c474b;
-    padding: 50px 28px 16px 50px;
+    padding: 50px 28px 50px 50px;
     font-size: 25px;
     text-align: center;
+
+    @media all and (min-width: 768px) {
+      display: flex;
+      font-size: 35px;
+    }
   }
 }
 

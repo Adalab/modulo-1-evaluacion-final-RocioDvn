@@ -1,10 +1,8 @@
-.article {
+.main {
   background-color: #f0ebe5;
-}
-
-.icon {
   text-align: center;
 }
+
 .text1 {
   color: #0c474b;
   font-size: 20px;
@@ -27,4 +25,11 @@
   font-weight: normal;
   text-align: center;
   padding: 0px 45px 0 41px;
+}
+
+@media all and (min-width: 768px) {
+  .section {
+    display: flex;
+    padding: 35px;
+  }
 }
